@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
   border-bottom: 1px solid #eee;
 }
 .masthead-title {
@@ -155,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
 }
+
 @media (min-width: 30em) {
   .sidebar {
     font-size: .75rem; /* 14px */
@@ -182,6 +183,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.1);
 }
+
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -309,16 +311,21 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 0em;
 }
 
 /* Blog post or page title */
 .page-title,
 .post-title,
-.post-title a {
+.post-title a,
+.post-list-title,
+.post-list-title a {
   color: #303030;
+  text-transform: capitalize;
 }
+
 .page-title,
+.post-list-title
 .post-title {
   margin-top: 0;
 }

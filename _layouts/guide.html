@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title" style="float:right">
+    {% for post in site.guides %}
+      {% if post.type == page.type and post.food == page.food and post.path != page.path %}
+        {% if post.doneness != page.doneness %}
+          <a href="{{ post.url }}">
+            <span class="doneness">{{ post.doneness }}</span>
+          </a>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </h1>
+
+  <h1 class="post-title">
+    <a href="{{ page.url }}">
+      <span class="type {{ page.type }}">{{ page.type }}</span>
+      <span class="food {{ page.food }}">{{ page.food }}</span>
+      <span class="doneness {{page.doneness}}">{{ page.doneness }}</span>
+    </a>
+  </h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Water(c/f)</th>
+        <th>minimum</th>
+        <th>best</th>
+        <th>maximum</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>{{ page.temp_c }}/{{ page.temp_f }}</th>
+        <th>{{page.minimum}}</th>
+        <th>{{page.best}}</th>
+        <th>{{page.maximum}}</th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.guides %}
+      {% if post.type == page.type and post.food == page.food %}
+      {% else %}
+        <li>
+          <h3>
+            <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+          </h3>
+        </li>
+      {% endif %}
+    {% endfor %}
+
+  </ul>
+</div>
