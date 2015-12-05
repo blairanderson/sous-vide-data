@@ -16,7 +16,7 @@ paginate:            5
 collections:
   guides:
     output: true
-    permalink: /awesome/:path/
+
 # About/contact
 author:
   name:              Blair Anderson

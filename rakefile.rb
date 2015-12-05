@@ -13,7 +13,7 @@ namespace :guides do
       best = guide["best"]
       maximum = guide["maximum"]
 
-      File.open("_guides/#{type}_#{food}_#{doneness}.md", 'w+') do |f|
+      File.open("_guides/#{type}-#{food}-#{doneness}.md", 'w+') do |f|
         f.write("---\n")
         f.write("layout: guide\n")
         f.write("title: #{type} #{food} #{doneness}\n")
