@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: beef-roast-medium-rare
 title: beef roast medium-rare
 type: beef
 food: roast

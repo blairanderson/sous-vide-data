@@ -16,7 +16,6 @@ namespace :guides do
       File.open("_guides/#{type}_#{food}_#{doneness}.md", 'w+') do |f|
         f.write("---\n")
         f.write("layout: guide\n")
-        f.write("path: #{type}-#{food}-#{doneness}\n")
         f.write("title: #{type} #{food} #{doneness}\n")
         f.write("type: #{type}\n")
         f.write("food: #{food}\n")

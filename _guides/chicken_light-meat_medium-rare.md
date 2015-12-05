@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: chicken-light-meat-medium-rare
 title: chicken light-meat medium-rare
 type: chicken
 food: light-meat

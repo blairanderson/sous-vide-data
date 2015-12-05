@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: vegetables-winter-squash-medium
 title: vegetables winter-squash medium
 type: vegetables
 food: winter-squash

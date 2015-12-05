@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: pork-roast-medium-rare
 title: pork roast medium-rare
 type: pork
 food: roast

@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: pork-chop-medium-rare
 title: pork chop medium-rare
 type: pork
 food: chop

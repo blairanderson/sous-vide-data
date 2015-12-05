@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: pork-chop-well-done
 title: pork chop well-done
 type: pork
 food: chop

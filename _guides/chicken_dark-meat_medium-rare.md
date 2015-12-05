@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: chicken-dark-meat-medium-rare
 title: chicken dark-meat medium-rare
 type: chicken
 food: dark-meat

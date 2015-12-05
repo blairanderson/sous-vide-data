@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: beef-roast-well-done
 title: beef roast well-done
 type: beef
 food: roast

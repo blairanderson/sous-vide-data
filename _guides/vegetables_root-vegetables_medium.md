@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: vegetables-root-vegetables-medium
 title: vegetables root-vegetables medium
 type: vegetables
 food: root-vegetables

@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: pork-roast-well-done
 title: pork roast well-done
 type: pork
 food: roast

@@ -7,7 +7,7 @@ title: Home
   {% for post in site.guides %}
   <div class="post">
     <h1 class="post-list-title">
-      <a href="{{ post.url }}">
+      <a href="{{ post.url | prepend: site.baseurl }}">
         <span class="type {{ post.type }}">{{ post.type }}</span>
         <span class="food {{ post.food }}">{{ post.food }}</span>
         <span class="doneness {{post.doneness}}">{{ post.doneness }}</span>

@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: pork-tough-cuts-medium-rare
 title: pork tough-cuts medium-rare
 type: pork
 food: tough-cuts

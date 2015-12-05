@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: chicken-light-meat-well-done
 title: chicken light-meat well-done
 type: chicken
 food: light-meat

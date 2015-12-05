@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: beef-tough-cuts-well-done
 title: beef tough-cuts well-done
 type: beef
 food: tough-cuts

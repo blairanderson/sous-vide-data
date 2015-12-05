@@ -8,8 +8,8 @@
 title:               Sous Vide Data
 tagline:             'Simple Sous Vide Data'
 description:         'easily find sous vide shit'
-url:                 http://www.blairanderson.co/sous-vide
-baseurl:             ''
+url:                 http://www.blairanderson.co/sous-vide-data
+baseurl:             '/sous-vide-data'
 gems:                [jekyll-paginate, classifier-reborn]
 paginate:            5
 

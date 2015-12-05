@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: beef-tough-cuts-medium-rare
 title: beef tough-cuts medium-rare
 type: beef
 food: tough-cuts

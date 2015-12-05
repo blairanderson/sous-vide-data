@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: fish-fish-well-done
 title: fish fish well-done
 type: fish
 food: fish

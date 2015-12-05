@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: pork-tough-cuts-well-done
 title: pork tough-cuts well-done
 type: pork
 food: tough-cuts

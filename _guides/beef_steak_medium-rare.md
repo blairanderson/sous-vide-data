@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: beef-steak-medium-rare
 title: beef steak medium-rare
 type: beef
 food: steak

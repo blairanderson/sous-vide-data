@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: vegetables-green-medium
 title: vegetables green medium
 type: vegetables
 food: green

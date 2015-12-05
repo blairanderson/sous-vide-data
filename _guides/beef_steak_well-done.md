@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: beef-steak-well-done
 title: beef steak well-done
 type: beef
 food: steak

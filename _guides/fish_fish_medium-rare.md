@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: fish-fish-medium-rare
 title: fish fish medium-rare
 type: fish
 food: fish

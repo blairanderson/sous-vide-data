@@ -1,6 +1,5 @@
 ---
 layout: guide
-path: chicken-dark-meat-falling-off-bone
 title: chicken dark-meat falling-off-bone
 type: chicken
 food: dark-meat
