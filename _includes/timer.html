@@ -1,13 +1,16 @@
 <!-- if we're on a guide! -->
 {% if page.doneness != nil %}
   <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
-  <script src="{{ site.baseurl }}/public/javascripts/time.js" charset="utf-8"></script>
-  <script src="{{ site.baseurl }}/public/javascripts/timer.js" charset="utf-8"></script>
-  <script type="text/javascript">
-    Egg.defaultText = "Sous Vide Timer";
-    Egg.endTime = 3600000*{{page.best}};
-    Egg.parseError = "none";
-    Egg.volume = 1;
-    Egg.canAlert = true;
-   </script>
+  <script src="https://cdn.rawgit.com/blairanderson/react-timer/6bacf1c3ce93e933bfcc34639714f58bce5540eb/dist/bundle.js" charset="utf-8"></script>
+
+    <script>
+      configTimer({
+        el: "timer-container",
+        timer: {
+          name: "{{page.title}} timer",
+          hours: {{page.best}},
+          started: false
+        }
+      })
+    </script>
 {% endif %}
