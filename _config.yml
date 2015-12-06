@@ -13,6 +13,8 @@ baseurl:             '/sous-vide-data'
 gems:                [jekyll-paginate, classifier-reborn]
 paginate:            5
 
+exclude: [node_modules, package.json, main.js]
+
 collections:
   guides:
     output: true

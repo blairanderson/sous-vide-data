@@ -162,7 +162,7 @@ $(function(){
   Egg.beep = document.getElementById("beepbeep");
   $(window).bind("resize", window_RESIZE);
   window_RESIZE();
-  Egg.updateText("Tap to Start");
+  Egg.updateText("Tap to Start Timer");
   Egg.startButton.click(function() {
       if (Egg.beep && Egg.beep.load) {
           Egg.beep.load()
