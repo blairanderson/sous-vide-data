@@ -10,7 +10,7 @@ title: Home
       <a href="{{ post.url | prepend: site.baseurl }}">
         <span class="type {{ post.type }}">{{ post.type }}</span>
         <span class="food {{ post.food }}">{{ post.food }}</span>
-        <span class="doneness {{post.doneness}}">{{ post.doneness }}</span>
+        <span class="doneness {{ post.type }} {{ post.food }} {{post.doneness}}">{{ post.doneness }}</span>
       </a>
     </h1>
   </div>

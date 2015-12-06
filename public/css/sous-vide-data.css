@@ -1,0 +1,12 @@
+.post-list-title:hover a {
+  text-decoration: none;
+}
+.post-list-title:hover .doneness.rare {
+  background: red;
+}
+.post-list-title:hover .doneness.medium-rare {
+  background: pink
+}
+.post-list-title:hover .doneness.well-done {
+  background: brown;
+}
