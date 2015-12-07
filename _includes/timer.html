@@ -2,16 +2,23 @@
 {% if page.doneness != nil %}
   <script src="https://code.jquery.com/jquery-2.1.4.min.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://cdn.rawgit.com/blairanderson/react-timer/caa8c5b572036fe5d723f191f02802a70ea4a757/public/styles.css">
-  <script src="https://cdn.rawgit.com/blairanderson/react-timer/6bacf1c3ce93e933bfcc34639714f58bce5540eb/dist/bundle.js" charset="utf-8"></script>
-
-    <script>
-      configTimer({
-        el: "timer-container",
-        timer: {
-          name: "{{page.title}} timer",
-          hours: {{page.best}},
-          started: false
-        }
-      })
-    </script>
+  <script src="https://cdn.rawgit.com/blairanderson/react-timer/157c0a2bc45e71c7786a62caed24f29c66b37613/dist/bundle.js" charset="utf-8"></script>
+  <script>
+    configTimer({
+      el: "timer-container",
+      timers: [{
+        name: "{{page.title}} best",
+        hours: {{page.best}},
+        started: false
+      },{
+        name: "{{page.title}} minumum",
+        hours: {{page.minimum}},
+        started: false
+      },{
+        name: "{{page.title}} maximum",
+        hours: {{page.maximum}},
+        started: false
+      }]
+    })
+  </script>
 {% endif %}
